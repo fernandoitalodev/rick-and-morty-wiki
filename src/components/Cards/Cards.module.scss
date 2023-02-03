@@ -1,0 +1,21 @@
+$radius: 10px;
+.cards{
+    border: 2px solid #0b5ed7;
+    border-radius: $radius;
+}
+.alive{
+    background-color:#198754;
+}.dead{
+    background-color: #dc3545;
+}.unknown{
+    background-color: #6c757d;
+}
+.img{
+    border-radius: $radius $radius 0 0;
+}
+.badge{
+    top:10px;
+    right: 20px;
+    font-size:1em;
+    color:white;
+}
